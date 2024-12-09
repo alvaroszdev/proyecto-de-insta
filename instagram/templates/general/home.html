@@ -1,0 +1,29 @@
+{% extends "general/layout.html" %}
+
+{% block head_title %}Bienvenido a tu reforma{% endblock %}
+
+
+{% block page_content %}
+<div class="container">
+    {% include "_includes/_messages.html" %}
+    
+    <h1>Homepage</h1>
+    <p>!! Bienvenido a tu reforma ¡¡</p>
+
+    <section>
+        <h2>Ultimas publicaciones</h2>
+
+        <div class="row">
+            {% for post in last_posts %}
+                <div class="col-12 col-sm-6 col-md-4 ">
+                    {% include "_includes/posts/_post.html" %}
+
+                </div>
+           
+            
+            {% endfor %}
+        </div>
+    </section>
+</div>
+
+{% endblock %}
