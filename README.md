@@ -1,5 +1,5 @@
 
-InstaConquer
+InstaConquer.
 Este proyecto fue desarrollado como parte del Máster en Desarrollo Web Full Stack en ConquerBlocks. InstaConquer es una mini red social construida con Django que permite a los usuarios compartir fotos, seguir a otros usuarios y comentar en las publicaciones. Queremos expresar nuestro agradecimiento a ConquerBlocks por su apoyo y orientación durante este proyecto.
 
 Descripción
